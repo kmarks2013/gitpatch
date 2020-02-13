@@ -1,6 +1,6 @@
 class ExamplesController < ApplicationController
     def index
-        examples = Example.all
-        render json: examples
+        example = Example.all
+        render json: example
     end
 end
